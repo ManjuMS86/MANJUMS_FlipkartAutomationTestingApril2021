@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="MyListeners">
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Manju/IdeaProjects/FlipkartAutomationTestingApril2021">
+        <classes>
+            <class name="DataSupply"/>
+            <class name="Flipkart"/>
+            <class name="HomePage"/>
+            <class name="CartPage"/>
+            <class name="Browser"/>
+            <class name="BasePage"/>
+            <class name="Reports"/>
+        </classes>
+    </test>
+</suite>
